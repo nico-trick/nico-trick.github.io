@@ -22,14 +22,17 @@ body {
 }
 
 #bg-vid {
-    min-width: 100%;    
+    object-fit: cover;  
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 /* ---------------------------------- header ----------------------------------*/
 
 .header {
     display: flex;
-    height: 6.25vh;
+    height: 40px;
     flex-direction: row;
     justify-content: space-between;
     padding: 1%;
@@ -44,22 +47,25 @@ body {
     display: flex;
     position: relative;
     max-width: 100%;
-    max-height: 100%;    
+    max-height: 100%;  
+    padding: 5px;
 }
 
 .logo img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .social-icon {
     align-content: center;
-    padding: 5%;
+    padding: 5px;
 }
+
 .social-icon img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 20px;
+    max-height: 20px;
 }
+
 
 /* ---------------------------------- menu bar ----------------------------------*/
 
@@ -97,7 +103,7 @@ a:hover span.en, a span.dn {
 
 /* ---------------------------------- venn menu ----------------------------------*/
 .venn-menu {
-    height: 500px;
+    height: 600px;
     padding: 5%;
 }
 
@@ -125,23 +131,47 @@ a:hover span.en, a span.dn {
 
 .footer {
     width: 100%;
-    height: 50vh;
+    margin-top: 100px;
+    height: 20vh;
     position: relative;
-    background-color: black;
+    display: flex;
+    background-color: rgb(196, 196, 196);
+
+    color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 /* ---------------------------------- watch page ----------------------------------*/
 
+
 h1 {
     text-align: center;
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid {
   background: rgb(255, 255, 255);
   margin: 0 auto;
   padding: 2%;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-desc {
+    padding: 2px;
+}
+
+.grid-desc a {
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+    font-weight: bold;
+    
 }
 
 /* clear fix */
@@ -165,9 +195,34 @@ h1 {
   max-width: 100%;
 }
 
+.grid-item img:hover{
+    background-color: black;
+}
 /* ---------------------------------- about page ----------------------------------*/
 
+.about-box {
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14pt;
+
+    
+}
+
 .about {
-    width: 100%;
-    height: 200px;
+    font-size: 21pt;
+}
+
+
+/* ----------------------------------- extra ----------------------------------- */
+.wip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(216, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
 }
