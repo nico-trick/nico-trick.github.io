@@ -4,7 +4,28 @@ CCAAP Project Website Test
 In Progress
 - autoplay video bg
 
-To Do
+
+Need to do
+- team page XXX
+- about text XXX
+- proper video background
+- fix fonts XXX
+- check everything works in differnt screens
+- remove header bar  XXX
+- upload videos
+- fix inconsistencies w team vs watch grid
+- playable watch videos
+- filler icon / header
+- main venn XXX
+-posters for videos
+
+
+Questions for dene:
+- check over spelling / language used
+- dene options?
+- contact? who will manage?
+
+Like to do
 - icon svg
 - links hover dene
 - tab pixel icon
@@ -26,3 +47,7 @@ To Do
 - fix load-in flash from imagesloaded on watch page
 - import index menu to other pages so updates are easier
 - gradient and/or heading icons fixed or absolute?
+
+Future
+- what is third space?
+- 
