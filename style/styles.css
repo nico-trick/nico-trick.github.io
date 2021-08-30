@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    
+}
+
+.fullscreen-vid video {
+    /* display: flex; */
+    position: fixed;
+    /* max-height: 100vh; */
+    max-width: 100vw;
+    z-index: -2;
+    background-color: black;
+}
+
+.gradient-overlay {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#bg-vid {
+    object-fit: cover;  
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+
+/* ---------------------------------- header ----------------------------------*/
+
+.header {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.header-div {
+    display: flex;
+    position: relative;
+}
+
+.header-item {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;  
+    padding: 5px;
+}
+
+.logo img {
+    max-width: 180px;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+
+.social-icon {
+    align-content: center;
+    padding: 5px;
+}
+
+.social-icon img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+/* ---------------------------------- menu bar ----------------------------------*/
+
+.menu-bar {
+    display: flex;
+    position: relative;
+    height: 50px;
+    justify-content:space-evenly;
+    background-color: rgba(255, 255, 255, 0.856);
+}
+
+.menu-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather Sans';    
+    font-size: 18pt;
+}
+
+.menu-item a:hover {
+    color:hsla(216, 100%, 62%, 1);
+}
+
+
+/* ---------------------------------- venn menu ----------------------------------*/
+.venn-menu {
+    height: 600px;
+    padding: 5%;
+    
+}
+
+.venn-menu path {
+    fill: transparent;
+    /* stroke: rgb(255, 255, 255); */
+    stroke:hsla(39, 100%, 71%, 1);
+    stroke-width: 0.3;
+    transition: 0.5s;
+}
+
+.venn-menu path:hover {
+    /* fill: rgb(255, 255, 255); */
+    fill:hsla(39, 100%, 71%, 1);
+}
+
+
+.venn-menu text {
+    fill: rgb(255, 255, 255);
+    font-size: 4pt;
+    font-family: 'Merriweather Sans', bold;
+    font-style: italic;
+    text-anchor: middle;
+    pointer-events: none;
+}
+
+/* ---------------------------------- footer ----------------------------------*/
+
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    height: 0vh;
+    position: relative;
+    display: flex;
+    background-color: rgb(196, 196, 196);
+
+    
+
+}
+
+/* ---------------------------------- watch page ----------------------------------*/
+
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Merriweather Sans', bold;
+}
+
+.grid {
+  background: aliceblue;
+  margin: 0 auto;
+  padding: 2%;
+
+  font-family: 'Merriweather';
+}
+
+.grid-desc {
+    padding: 2px;
+}
+
+.grid-desc a {
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+    font-weight: bold;
+    font-family: 'Merriweather Sans';
+}
+
+.grid-desc a:hover {
+    color:hsla(216, 100%, 62%, 1);
+}
+
+.grid-sizer,
+.grid-item {
+  width: 450px;
+}
+
+.grid-item {
+  float: left;
+
+}
+
+
+.grid-item img, video, a {
+  display: block;
+  max-width: 100%;
+}
+
+/* .grid-item img:hover{
+    background-color: black;
+} */
+
+
+/* about grid changes */
+
+#team .grid-item img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+
+
+/* -------------------------------- video player pages --------------------------------*/
+
+.video-box {
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.video-box img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+#back {
+    background-color:rgb(143, 188, 255);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Merriweather Sans';
+    font-size: 16px;
+    margin-top: 44px;
+    cursor: pointer;
+}
+
+#back:hover {
+    background-color:hsla(216, 100%, 62%, 1);
+}
+
+/* ---------------------------------- about page ----------------------------------*/
+.gradient-background {
+    
+    background: hsla(39, 100%, 71%, 1);
+    background: linear-gradient(90deg, hsla(39, 100%, 71%, 1) 0%, hsla(216, 100%, 62%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(39, 100%, 71%, 1) 0%, hsla(216, 100%, 62%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(39, 100%, 71%, 1) 0%, hsla(216, 100%, 62%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCB6B", endColorstr="#3D8BFF", GradientType=1 );
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-box h1 {
+    font-size: 29pt;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.about-box p,a {
+    font-size: 14pt;
+    font-family: 'Merriweather';
+    font-style:normal;
+    font-weight: 500;
+}
+
+.about-box a {
+    font-family: 'Merriweather Sans';
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+.about-box a:hover {
+    color:hsla(39, 100%, 71%, 1);
+}
+
+.grid-desc #team-desc h2,h3 {
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+/* ---------------------------------- project page ----------------------------------*/
+
+#quote {
+    font-family: 'Merriweather Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18pt;
+    margin-bottom: -1%;
+    text-align: center;
+}
+
+#quote-sub {
+    font-family: 'Merriweather Sans';
+    font-weight: 100;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#project-h2 {
+    font-size: 18pt;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    font-weight: 500;
+}
+
