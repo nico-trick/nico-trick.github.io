@@ -22,8 +22,19 @@ Need to do
 
 Questions for dene:
 - check over spelling / language used
-- dene options?
+- removed some options (ie dene language) to simplify, they can be added in when ready.
 - contact? who will manage?
+
+- pricing for hosting, who will pay? bluehost, 3.68 / month for 1 year
+
+- will work full time until end of week. still need to fix some mobile formatting, host, other finishing details
+
+-  would like to work on commission moving forward. that way, no stress on either of us when other thinigs are more important, and can focus time on speciffic tasks when time is.
+
+- better work flow, scheduling, easier for me while in class.
+
+- You can give me a deadline / i can tell you howw many hours it would take
+
 
 Like to do
 - icon svg

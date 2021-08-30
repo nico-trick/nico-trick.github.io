@@ -114,13 +114,13 @@ body {
 
 .venn-menu path {
     fill: transparent;
-    stroke:hsla(39, 100%, 71%, 1);
+    stroke:rgb(255, 196, 85);
     stroke-width: 0.3;
     transition: 0.5s;
 }
 
 .venn-menu path:hover {
-    fill:hsla(39, 100%, 71%, 1);
+    fill:rgb(255, 196, 85);
 }
 
 
